@@ -1,6 +1,6 @@
 # hk-stock-cli
 
-get hk stock information cli
+Get hk stock information cli
 
 ```
 $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/main.ts
@@ -8,9 +8,10 @@ $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/ma
 
 ```
 hkStock
+Get hk stock information cli
 
 Usage
-    $ hkStock [options]
+    hkStock [options]
 
 Options
     --help -h help                                                        Show help
