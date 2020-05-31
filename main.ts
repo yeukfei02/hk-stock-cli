@@ -16,7 +16,7 @@ async function hkStock() {
       }
 
       if (item === "--version" || item === "-v" || item === "version") {
-        console.log("v0.1.1");
+        console.log("v0.1.2");
       }
 
       if (item === "--current" || item === "-c" || item === "current") {
