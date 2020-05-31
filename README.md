@@ -25,8 +25,6 @@ Examples
 $ hkStock --current 00005
 Name:  Hsbc Holdings (00005)
 Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. Currency: HKD
-Name:  Hsbc Holdings (00005)
-Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. Currency: HKD
 ┌───────┬──────────────┬──────────────┬───────────┬───────────┬───────┬───────┬────────┬───────┬───────┬───────────────┬──────────────────┬───────────────┬─────────┐
 │ (idx) │     Date     │ NominalPrice │ NetChange │ Change(%) │  Bid  │  Ask  │ P/E(x) │ High  │  Low  │ PreviousClose │ ShareVolume(000) │ Turnover(000) │ LotSize │
 ├───────┼──────────────┼──────────────┼───────────┼───────────┼───────┼───────┼────────┼───────┼───────┼───────────────┼──────────────────┼───────────────┼─────────┤
@@ -34,8 +32,6 @@ Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. 
 │   1   │ "2020-05-28" │      37      │    ""     │    ""     │ 36.95 │  37   │   ""   │ 38.2  │ 36.3  │     37.35     │      56106       │    2085795    │   ""    │
 
 $ hkStock --current 00005 2020-05-01 2020-05-05
-Name:  Hsbc Holdings (00005)
-Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. Currency: HKD
 Name:  Hsbc Holdings (00005)
 Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. Currency: HKD
 ┌───────┬──────────────┬──────────────┬───────────┬───────────┬──────┬───────┬────────┬──────┬──────┬───────────────┬──────────────────┬───────────────┬─────────┐
@@ -48,8 +44,6 @@ Description:  Stock Prices for Hsbc Holdings from the Hong Kong Stock Exchange. 
 $ hkStock --index-future HSI may 2020
 Name:  Hang Seng Index Futures, May 2020 (HSIK2020)
 Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 2020 (HSIK2020).
-Name:  Hang Seng Index Futures, May 2020 (HSIK2020)
-Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 2020 (HSIK2020).
 ┌───────┬──────────────┬───────┬─────┬─────┬────────────┬───────┬───────┬────────┬─────────────────────────┬───────────┬──────────────────────┐
 │ (idx) │     Date     │ Open  │ Bid │ Ask │ LastTraded │ High  │  Low  │ Volume │ Prev.DaySettlementPrice │ NetChange │ Prev.DayOpenInterest │
 ├───────┼──────────────┼───────┼─────┼─────┼────────────┼───────┼───────┼────────┼─────────────────────────┼───────────┼──────────────────────┤
@@ -58,8 +52,6 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 
 
 $ hkStock --index-future HSI may 2020 2020-05-01 2020-05-05
-Name:  Hang Seng Index Futures, May 2020 (HSIK2020)
-Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 2020 (HSIK2020).
 Name:  Hang Seng Index Futures, May 2020 (HSIK2020)
 Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 2020 (HSIK2020).
 ┌───────┬──────────────┬───────┬─────┬─────┬────────────┬───────┬───────┬────────┬─────────────────────────┬───────────┬──────────────────────┐
