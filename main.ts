@@ -35,10 +35,14 @@ async function hkStock() {
         item === "--index-future" || item === "-if" || item === "index-future"
       ) {
         const indexCode = argsList[1];
-        const startDate = argsList[2];
-        const endDate = argsList[3];
+        const month = argsList[2];
+        const year = argsList[3];
+        const startDate = argsList[4];
+        const endDate = argsList[5];
         const result = await getCurrentIndexFuture(
           indexCode,
+          month,
+          year,
           startDate,
           endDate,
         );
