@@ -1,5 +1,5 @@
 export {
   getHKStockByCode,
   getHKIndexFutureByIndexCodeAndDate,
-} from "https://denopkg.com/yeukfei02/hk-stock-api/mod.ts";
+} from "https://deno.land/x/hk_stock_api/mod.ts";
 export { assert } from "https://deno.land/std/testing/asserts.ts";
