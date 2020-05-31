@@ -10,16 +10,13 @@ $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/ma
 hkStock
 
 Usage
-    $ hkStock --help
-    $ hkStock --version
-    $ hkStock --current
-    $ hkStock --index-future
+    $ hkStock [options]
 
 Options
-    --help, -h, help                                                                        Show help
-    --version, -v, version                                                                  Show version
-    --current, -c, current [code] [startDate] [endDate]                                     Get hk stock infomation / get hk stock infomation with startDate and endDate
-    --index-future, -if, index-future [indexCode] [month] [year] [startDate] [endDate]      Get hk index future infomation / get hk index future infomation with startDate and endDate
+    --help -h help                                                        Show help
+    --version -v version                                                  Show version
+    --current -c current <code> <startDate> <endDate>                     Get hk stock infomation / get hk stock infomation with startDate and endDate
+    --index-future -if index-future <indexCode> <startDate> <endDate>     Get hk index future infomation / get hk index future infomation with startDate and endDate
 
 Examples
 $ hkStock --current 00005
