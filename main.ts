@@ -16,7 +16,7 @@ async function hkStock() {
       }
 
       if (item === "--version" || item === "-v" || item === "version") {
-        console.log("v0.1.5");
+        console.log("v0.1.6");
       }
 
       if (item === "--current" || item === "-c" || item === "current") {
@@ -62,9 +62,10 @@ async function hkStock() {
 function getHelpText() {
   return `
 hkStock
+Get hk stock information cli
 
 Usage
-    $ hkStock [options]
+    hkStock [options]
 
 Options
     --help -h help                                                        Show help
