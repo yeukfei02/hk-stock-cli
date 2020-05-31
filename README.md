@@ -70,6 +70,19 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 └───────┴──────────────┴───────┴─────┴─────┴────────────┴───────┴───────┴────────┴─────────────────────────┴───────────┴──────────────────────┘
 ```
 
+### indexCode
+| INDEX NAME                                        | INDEX CODE    |
+| ------------------------------------------------- | :-----------: |
+| CES China 120 Index Futures                       | CHH           |
+| Hang Seng Index Futures (Night Session)           | HSIN          |
+| Hang Seng Index Futures                           | HSI           |
+| HSCEI Dividend Futures                            | DHH           |
+| HSI Dividend Futures                              | DHS           |
+| HSI Volatility Index Futures                      | VHS           |
+| Mini-Hang Seng Index Futures (Night Session)      | MHIN          |
+| Mini-Hang Seng Index Futures                      | MHI           |
+| US Dollar vs Renminbi (Hong Kong) (USD/CNH)       | CUS           |
+
 ## Requirement:
  - install deno (1.0.2)
 
