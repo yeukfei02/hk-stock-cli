@@ -15,11 +15,15 @@ export async function getCurrent(
 
 export async function getCurrentIndexFuture(
   indexCode: string,
+  month: string,
+  year: string,
   startDate: string,
   endDate: string,
 ) {
   const response = await getHKIndexFutureByIndexCodeAndDate(
     indexCode,
+    month,
+    year,
     startDate,
     endDate,
   );
