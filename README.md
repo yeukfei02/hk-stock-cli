@@ -74,7 +74,7 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 | US Dollar vs Renminbi (Hong Kong) (USD/CNH)       | CUS           |
 
 ## Requirement:
- - install deno (1.0.2)
+ - install deno
 
 ## Testing and run:
 ```
