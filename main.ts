@@ -16,7 +16,7 @@ async function hkStock() {
       }
 
       if (item === "--version" || item === "-v" || item === "version") {
-        console.log("v0.1.7");
+        console.log("v0.1.8");
       }
 
       if (item === "--current" || item === "-c" || item === "current") {
@@ -68,10 +68,10 @@ Usage
     hkStock [options]
 
 Options
-    --help -h help                                                                    Show help
-    --version -v version                                                              Show version
-    --current -c current <code> <startDate> <endDate>                                 Get hk stock infomation / get hk stock infomation with startDate and endDate
-    --index-future -if index-future <indexCode> <month> <year> <startDate> <endDate>  Get hk index future infomation / get hk index future infomation with startDate and endDate
+    --help, -h, help                                                                    Show help
+    --version, -v, version                                                              Show version
+    --current, -c, current <code> <startDate> <endDate>                                 Get hk stock infomation / get hk stock infomation with startDate and endDate
+    --index-future, -if, index-future <indexCode> <month> <year> <startDate> <endDate>  Get hk index future infomation / get hk index future infomation with startDate and endDate
   `;
 }
 
