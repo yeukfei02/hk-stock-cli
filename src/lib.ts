@@ -1,6 +1,6 @@
 import {
-  getHKStockByCode,
   getHKIndexFutureByIndexCodeAndDate,
+  getHKStockByCode,
 } from "../deps.ts";
 
 export async function getCurrent(

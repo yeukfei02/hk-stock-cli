@@ -1,6 +1,6 @@
 import {
-  getHKStockByCode,
   getHKIndexFutureByIndexCodeAndDate,
+  getHKStockByCode,
 } from "../deps.ts";
 import { assert } from "../deps.ts";
 
