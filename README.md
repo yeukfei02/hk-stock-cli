@@ -5,7 +5,7 @@ Get hk stock information cli
 ```ts
 // pick 1 to import
 $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/main.ts
-$ deno install --allow-net -f --name hkStock https://x.nest.land/hk-stock-cli@0.2.0/main.ts
+$ deno install --allow-net -f --name hkStock https://x.nest.land/hk-stock-cli/main.ts
 ```
 
 ```
