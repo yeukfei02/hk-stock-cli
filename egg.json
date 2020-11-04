@@ -1,20 +1,20 @@
 {
-    "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
-    "name": "hk-stock-cli",
-    "entry": "./main.ts",
-    "description": "Get hk stock information cli",
-    "homepage": "https://github.com/yeukfei02/hk-stock-cli",
-    "version": "0.1.8",
-    "files": [
-      "*",
-      "*/**/*"
-    ],
-    "ignore": [
-      "./.git/**"
-    ],
-    "checkFormat": "deno fmt",
-    "checkTests": "deno test -A",
-    "checkInstallation": true,
-    "check": true,
-    "unlisted": false
+  "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+  "name": "hk-stock-cli",
+  "entry": "./main.ts",
+  "description": "Get hk stock information cli",
+  "homepage": "https://github.com/yeukfei02/hk-stock-cli",
+  "version": "0.2.0",
+  "files": [
+    "*",
+    "*/**/*"
+  ],
+  "ignore": [
+    "./.git/**"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test -A",
+  "checkInstallation": true,
+  "check": true,
+  "unlisted": false
 }
