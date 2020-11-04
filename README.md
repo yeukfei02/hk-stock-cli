@@ -2,8 +2,9 @@
 
 Get hk stock information cli
 
-```
+```ts
 $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/main.ts
+$ deno install --allow-net -f --name hkStock https://x.nest.land/hk-stock-cli@0.2.0/main.ts
 ```
 
 ```
@@ -61,22 +62,25 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 ```
 
 ### indexCode
-| INDEX NAME                                        | INDEX CODE    |
-| ------------------------------------------------- | :-----------: |
-| CES China 120 Index Futures                       | CHH           |
-| Hang Seng Index Futures (Night Session)           | HSIN          |
-| Hang Seng Index Futures                           | HSI           |
-| HSCEI Dividend Futures                            | DHH           |
-| HSI Dividend Futures                              | DHS           |
-| HSI Volatility Index Futures                      | VHS           |
-| Mini-Hang Seng Index Futures (Night Session)      | MHIN          |
-| Mini-Hang Seng Index Futures                      | MHI           |
-| US Dollar vs Renminbi (Hong Kong) (USD/CNH)       | CUS           |
+
+| INDEX NAME                                   | INDEX CODE |
+| -------------------------------------------- | :--------: |
+| CES China 120 Index Futures                  |    CHH     |
+| Hang Seng Index Futures (Night Session)      |    HSIN    |
+| Hang Seng Index Futures                      |    HSI     |
+| HSCEI Dividend Futures                       |    DHH     |
+| HSI Dividend Futures                         |    DHS     |
+| HSI Volatility Index Futures                 |    VHS     |
+| Mini-Hang Seng Index Futures (Night Session) |    MHIN    |
+| Mini-Hang Seng Index Futures                 |    MHI     |
+| US Dollar vs Renminbi (Hong Kong) (USD/CNH)  |    CUS     |
 
 ## Requirement:
- - install deno
+
+- install deno
 
 ## Testing and run:
+
 ```
 // install deps
 $ deno cache main.ts
