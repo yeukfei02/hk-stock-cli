@@ -4,7 +4,7 @@
   "entry": "./main.ts",
   "description": "Get hk stock information cli",
   "homepage": "https://github.com/yeukfei02/hk-stock-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "files": [
     "*",
     "*/**/*"
