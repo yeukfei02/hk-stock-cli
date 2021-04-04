@@ -8,7 +8,7 @@ $ deno install --allow-net -f --name hkStock https://deno.land/x/hk_stock_cli/ma
 $ deno install --allow-net -f --name hkStock https://x.nest.land/hk-stock-cli/main.ts
 ```
 
-```
+```zsh
 hkStock
 Get hk stock information cli
 
@@ -62,7 +62,7 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 └───────┴──────────────┴───────┴─────┴─────┴────────────┴───────┴───────┴────────┴─────────────────────────┴───────────┴──────────────────────┘
 ```
 
-### indexCode
+## indexCode
 
 | INDEX NAME                                   | INDEX CODE |
 | -------------------------------------------- | :--------: |
@@ -76,13 +76,13 @@ Description:  Historical Hong Kong Futures Prices: Hang Seng Index Futures, May 
 | Mini-Hang Seng Index Futures                 |    MHI     |
 | US Dollar vs Renminbi (Hong Kong) (USD/CNH)  |    CUS     |
 
-## Requirement:
+## Requirement
 
 - install deno
 
-## Testing and run:
+## Testing and run
 
-```
+```zsh
 // install deps
 $ deno cache main.ts
 
